@@ -1,0 +1,346 @@
+
+
+
+
+
+A:LINK {
+	font :   x-small Comic Sans MS;
+	color : blue;
+	text-decoration : none;
+}
+
+A:VISITED {
+	/*font : x-small Comic Sans MS;
+	*/
+	font : x-small Comic Sans MS;
+		color : Navy;
+			text-decoration : none;
+}
+
+A:HOVER {
+	color: Fuchsia;
+	font : x-small Comic Sans MS;
+	text-decoration : underline;
+}
+
+A:FOCUS {
+	color : Fuchsia;
+	font : x-small Comic Sans MS;
+}
+
+
+TABLE.tabella_fighetta {
+	border : 0px solid #663399;
+	color : White;
+	padding-top : 0px;
+	margin-top : 0px;
+	margin : 0px;
+	padding : 0px;
+	border-left-width : 0px;
+	background-color : #663399;
+	text-align : center;
+	font-variant : small-caps;
+	font-size : larger;
+	font-weight : bolder;
+}
+
+TABLE.tabella_fighetta_blu {
+	border : 0px solid Blue;
+	color : white;
+	padding-top : 0px;
+	margin-top : 0px;
+	margin : 0px;
+	padding : 0px;
+	border-left-width : 0px;
+	background-color : Teal;
+	text-align : center;
+	font-variant : small-caps;
+	font-size : larger;
+	font-weight : bolder;
+}
+
+
+TABLE.tabella_fighetta_sondaggi {
+	border : 0px solid Teal;
+	color : White;
+	padding-top : 0px;
+	margin-top : 0px;
+	margin : 0px;
+	padding : 0px;
+	border-left-width : 0px;
+	background-color : Teal;
+	text-align : center;
+	font-variant : small-caps;
+	font-size : larger;
+	font-weight : bolder;
+	vertical-align : top;
+}
+
+
+TABLE.tabella_fighetta_ricerca {
+	border : 0px solid Silver;
+	color : White;
+	padding-top : 0px;
+	margin-top : 0px;
+	margin : 0px;
+	padding : 0px;
+	border-left-width : 0px;
+	background-color : #663399;
+	text-align : center;
+	font-variant : small-caps;
+	font-size : larger;
+	font-weight : bolder;
+}
+
+
+
+TABLE.tabella_fighetta_messaggi {
+	border : 0px solid Green;
+	color : White;
+	padding-top : 0px;
+	margin-top : 0px;
+	margin : 0px;
+	padding : 0px;
+	border-left-width : 0px;
+	background-color :navy;
+	text-align : center;
+	font-variant : small-caps;
+	font-size : larger;
+	font-weight : bolder;
+}
+
+.titoloInscatolato {
+	font : normal bolder smaller Comic Sans MS;
+	
+}
+
+TABLE.tabella_fighetta_chat {
+	border : 0px solid Blue;
+	color : white;
+	padding-top : 0px;
+	margin-top : 0px;
+	margin : 0px;
+	padding : 0px;
+	border-left-width : 0px;
+	background-color : #663399;
+	text-align : center;
+	font-variant : small-caps;
+	font-size : larger;
+	font-weight : bolder;
+}
+
+TABLE.tabella_fighetta_messaggimiei {
+	border : 0px solid  #FF1493;
+	color : White;
+	padding-top : 0px;
+	margin-top : 0px;
+	margin : 0px;
+	padding : 0px;
+	border-left-width : 0px;
+	background-color : Navy;
+	text-align : center;
+	font-variant : small-caps;
+	font-size : larger;
+	font-weight : bolder;
+}
+
+TABLE.tabella_fighetta_formgiococoppie {
+	border : 0px solid  #FF1493;
+	color : #000066;
+	padding-top : 0px;
+	margin-top : 0px;
+	margin : 0px;
+	padding : 0px;
+	border-left-width : 0px;
+	background-color : #FF0099;
+	text-align : center;
+	font-variant : small-caps;
+	font-size : larger;
+	font-weight : bolder;
+}
+
+TABLE.lineaLunghezzaVoto {
+	background : Red;
+	border : Black;
+}
+
+TABLE.messaggiodelgiorno {
+	
+}
+
+BODY {
+	font : -50%;
+	/*font : x-small Comic Sans MS;*/
+/* 	font-style : italic; */
+	/*border : double;
+	border-color : black;*/
+}
+
+.wingding {
+	font : small-caps  x-large Wingdings;
+	color : #FF0000;
+}
+.wingdingchat {
+	font : small-caps  x-large ;
+	color : #FF0000;
+}
+.webding {
+	font : Webdings;
+	background-color : #FFCDFF;
+}
+
+.fontlink {
+	font-family : "MS Sans Serif";
+}
+
+
+P {
+	color : Red;
+	font-size : larger;
+	font-weight : bolder;
+	font : small-caps;
+}
+
+
+H1 {
+/*		color : Navy; */
+		background : #CCCCFF;	
+	color : Black; 
+	font : normal bolder Monotype Corsiva;
+	text-align : center;
+}
+
+h2  {
+		background : #CCCCFF;	
+	color : Black; 
+
+		font : normal bolder  Comic Sans MS;
+	text-align : center;
+}
+
+H3 {
+		background : #CCCCFF;	
+	color : Black; 
+
+	font : normal bolder smaller Comic Sans MS;
+	text-align : center;
+}
+
+
+h3 b {
+	color : Lime;
+}
+
+h1 b {
+	color : Lime;
+}
+
+
+h3 i {
+	color : Navy;
+}
+
+h1 i {
+	color : Navy;
+}
+
+
+
+.erore {
+	color : red;
+	font : x-large System cursive;
+	text-decoration : blink;
+}
+
+.bkg_chiaro {
+	 background : #FFFFFF url('../immagini/sfondo108e.jpg');
+	 	
+}
+.bkg_chat {
+		 background : #FFDDDD;
+}
+.bkg_tabellina_chat {
+	background : #F0F0F0; /* ; #00FF99*/
+}
+
+/*
+EM:first-child, H3 {
+	color : Aqua;
+}
+
+H3:first-child, EM {
+	color : Aqua;
+}
+
+*/
+
+.piccolino {
+	font :  xx-small;
+}
+
+TEXTAREA {
+	background : Black;
+	color : Lime;
+	font :  smaller bolder Comic Sans MS;
+}
+
+
+
+B {
+	color : #DC143C;
+	font-weight : bolder;
+}
+.InizialeMaiuscola{
+		text-transform : capitalize;
+}
+
+.bkg_viola{
+	background : #663399;
+}
+UL {
+	font : x-small;
+	list-style-type : disc;
+}
+EM {
+	color : Maroon;
+	font : bold;
+}
+
+
+
+TABLE {
+	/* color : Teal; */
+/*	border : Purple; */
+/*background-color : white; #F0F8FF; */
+	/*font : x-small;*/
+}
+
+I {
+	color : #330066;
+}
+
+STRONG {
+	/*border-right : thin double Fuchsia;
+	*/
+	color : #6A5ACD;
+}
+
+.FGviola {
+	color: Navy ;
+}
+.BGbianco {
+	background : white;
+}
+.FGbianco {
+	color: white;
+}
+.BGviola {
+	background : 	Navy ;
+}
+ 
+
+
+/*
+B:after {
+	color : Fuchsia;
+}*/

@@ -1,0 +1,45 @@
+Chi sono|indice.php
+.Amici|amici.php
+Mie opere
+.Poesie|poesiepure.php
+.Glossario|glossario.php
+.Portale goliardico|http://www.goliardia.it
+Foto|foto2.php|_indiceframez.php
+.mie
+..da grande|fotomie.php
+..al liceo|fotoliceo.php	//#.Fede|fotofede.php
+.In famiglia
+..Famiglia|fotofamily.php
+..Opere della mamma
+...OPERA OMNIA!!!|mamma/index.php
+...alcuni quadri|fotoquadri.php
+...pasta di sale|mammasale.php
+.Università
+..Compagni di corso|fotouni.php
+..Amici di chat|fotochat.php
+Comici
+.Berlusconi|berlusca.php
+.da TV
+..Paquito y Chiquito|paquitonew.php
+.da riviste
+..Giochi di ruolo|kaos.php
+.dalla rete
+..barzellette scientifiche|barze.php
+..Star trek|startrek.php
+Hobbiez
+.Chat
+..energy.it|energy.php
+.Goliardia
+..Abelardo|http://www.goliardia.org/abelardo
+..Montecristo (fatta da me)|http://digilander.iol.it/balladimontecristo/
+.Java|java/java.php
+.Libri
+..Guida galattica|guidagalattica.php
+.Magic|magic.php
+.Musica
+..Demenziale|musicademente.php
+..straniera|musica.php
+Facoltà
+.Profz|prof.php
+.Barzellette scientifiche|barze.php
+.La matematica|matematica.php

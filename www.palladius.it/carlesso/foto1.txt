@@ -1,0 +1,14 @@
+menu|foto.html
+mie
+.da grande|fotomie.html
+.al liceo|fotoliceo.html
+Fede|fotofede.html
+In famiglia
+.Famiglia|fotofamily.html
+.Opere della mamma
+..alcuni quadri|fotoquadri.html
+..pasta di sale|mammasale.html
+Università
+.Compagni di corso|fotouni.html
+.Amici di chat|fotochat.html
+.Goliardiche|http://www.geocities.com/CollegePark/Field/6323/fotoballa.html
