@@ -1,0 +1,21 @@
+# boh
+Nuovonome=3 
+echo rinomino i HTML.PHP in PHP e copio in HTML cosi hai entrambi.
+
+ for i in *.html.php
+ do
+  Nuovonome=`echo $i | sed 's/.html.php/.php/'`
+  echo "rinomino -$i- in -$Nuovonome-"
+  cp $i $Nuovonome
+  Nuovonome=`echo $i | sed 's/.html.php/.html/'`
+  mv $i $Nuovonome
+ done
+ 
+ for i in *.htm.php
+ do
+  Nuovonome=`echo $i | sed 's/.htm.php/.php/'`
+  echo "rinomino -$i- in -$Nuovonome-"
+  cp $i $Nuovonome
+  Nuovonome=`echo $i | sed 's/.htm.php/.html/'`
+  mv $i $Nuovonome
+ done
