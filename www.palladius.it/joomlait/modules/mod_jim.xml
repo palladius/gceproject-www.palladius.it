@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<mosinstall type="module">
+   <name>Jim</name>
+   <creationDate>23/04/2006</creationDate>
+   <author>Laurent Belloeil</author>
+   <copyright>This module is released under the GNU/GPL License</copyright>
+   <authorEmail>lbelloeil@comeonjoomla.net</authorEmail>
+   <authorUrl>http://www.comeonjoomla.net</authorUrl>
+   <version>1.0.0</version>
+   <description>This module for Jim component verify new message for connected user using XML-RPC.
+   The delay beetween ech check is define in the component settings.
+   
+   It is highly recommended to disable public access to this module.
+   
+   Enjoy!
+   </description>
+   <files>
+         <filename module="mod_jim">mod_jim.php</filename>
+     </files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Suffixe CSS de module" description="Un suffixe à appliquer à la classe CSS du module (table.moduletable). Cela permet une mise en page individualisée." />
+	</params>
+</mosinstall>

@@ -1,0 +1,202 @@
+/**  CSS Styling for DISPLAY NEWS - LATEST 1-3 module  **/
+
+/* Styling for the div around the whole module*/
+.dn-whole {	
+	padding: 0px 0px 10px 0px;
+	background-color: #F5DEB3;
+}
+
+/* Styling for the div around the auto Title link at the top of the Module */
+.dn-title_auto {	
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Styling for the div around the top module title */
+.dn-module_title {
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: Navy;
+	text-align: center;
+	margin-bottom: 5px;
+	background-color: #F6CF7C;
+}
+
+/* Styling for the div around the module description */
+.dn-module_description {	
+}
+
+/* Styling for the div around each News Item  */
+.dn-each {		
+	text-align: left;
+	padding: 0px 10px 0px 10px;
+}
+
+/*========================================================================================*/
+/* Styling for the div around the Section of each News Item */
+.dn-section {		
+	text-align: left;
+}
+
+/* Styling for the Section link of each News Item */
+a.dn-section, a.dn-section:link, a.dn-section:visited {	
+	background-image: none;
+}
+a.dn-section:hover {
+	background-color: #C6D3EF;
+	color: Black;
+	font-weight: bold;
+}
+/******************************************************************************************/
+
+/*========================================================================================*/
+/* Styling for the div around the Category of each News Item */
+.dn-category {	
+	text-align: left;
+}
+/* Styling for the Category link of each News Item */
+a.dn-category, a.dn-category:link, a.dn-category:visited {	
+	background-image: none;
+}
+a.dn-category:hover {
+	background-color: Yellow;
+	color: Black;
+	font-weight: bold;
+}
+/******************************************************************************************/
+
+/* Styling for the div around the Date of each News Item*/
+.dn-date {		
+	text-align: right;
+}
+
+/*========================================================================================*/
+/* Styling for the div around the Title of each News Item */
+.dn-title {	
+	vertical-align: text-top;
+}
+/* Styling for the Title link of each News Item */
+a.dn-title, a.dn-title:link, a.dn-title:visited {	
+	display: block;
+	width: 100%;
+}
+a.dn-title:hover {
+	background-color: #C6D3EF;
+	color: Black;
+	font-weight: bold;
+}
+/******************************************************************************************/
+
+/*========================================================================================*/
+/* Styling for the ul controlling the Title of each News Item */
+ul.dnl {	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* Styling for the ul controlling the Title of each News Item */	
+ol.dnl {	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+	
+/* Styling for the li controlling the Title of each News Item */
+li.arrow-dnl {
+	margin: 0px 0px 0px 15px;
+	padding: 0px 0px 0px 0px;
+	list-style-image: url(arrowl.png);
+	list-style-position: outside;
+}
+
+/* Styling for the li controlling the Title of each News Item */
+li.list-dnl {	
+	margin: 0px 0px 0px 22px;
+	padding: 0px 0px 0px 0px;
+	list-style-image: none;
+	list-style-position: outside;
+}
+/******************************************************************************************/
+
+/* Styling for the div around the Author of each News Item */
+.dn-author {	
+	text-align: right;
+}
+
+/*========================================================================================*/
+/* Styling for the div around the Intro Text of the News Item */
+.dn-introtext {	
+	text-align: left;	
+}
+a.dn-introtext-link, a.dn-introtext-link:link, a.dn-introtext-link:visited, .dn-introtext-link {
+	font-weight: normal;
+	display: block;
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+a.dn-introtext-link:hover {
+	font-weight: normal;
+	background-color: yellow;
+}
+/******************************************************************************************/
+
+/* Styling for the div around the Full Text of each News Item */
+.dn-fulltext {	
+	text-align: left;	
+}
+
+/*========================================================================================*/
+/* Styling for the div around the Read More link of each News Item */
+.dn-read_more {
+	text-align: center;	
+}
+
+/* Styling for the Read More link of each News Item */
+a.dn-read_more, a.dn-read_more:link, a.dn-read_more:visited {
+	font-style: italic;
+}
+a.dn-read_more:hover {
+	background-color: Yellow;
+	color: Black;
+	font-weight: bold;
+}
+/******************************************************************************************/
+
+/*========================================================================================*/
+/* Styling for the div around the More link at the end of the Module */
+.dn-more {		
+	text-align: center;
+}
+/* Styling for the More link at the end of the Module */
+a.dn-more, a.dn-more:link, a.dn-more:visited {	
+	font-style: italic;
+	font-weight: bold;
+}
+a.dn-more:hover {
+	background-color: Yellow;
+	color: Black;
+	font-weight: bold;
+}
+/******************************************************************************************/
+
+/*========================================================================================*/
+/* Styling for the div around the bottom module link */
+.dn-module_link {
+	
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: Navy;
+	text-align: center;
+	margin-bottom: 5px;
+	background-color: #F6CF7C;
+}
+/* Styling for the Section link of each News Item */
+a.dn-module_link, a.dn-module_link:link, a.dn-module_link:visited {	
+}
+a.dn-module_link:hover {
+	background-color: #C6D3EF;
+	color: Black;
+	font-weight: bold;
+}
+/******************************************************************************************/

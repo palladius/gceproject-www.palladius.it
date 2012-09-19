@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>Mod Zoom Menue</name>
+	<author>Per Lasse Baasch</author>
+	<creationDate>Dezember 2005</creationDate>
+	<copyright>(C) 2005 Per Lasse Baasch.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>www.skycube.net</authorEmail>
+	<authorUrl>www.skycube.net</authorUrl>
+	<version>1b001</version>
+	<description>Mod Zoom Menue allows to navigate from every site to a part of the com_zoom. Requires com_zoom2.5rc1 !!!</description>
+	<files>
+		<filename module="mod_zoom_menue">mod_zoom_menue.php</filename>
+	</files>
+	<params>
+	  <param name="" type="textarea" default="On all tested browsers the menue will RUN.. But on earlier versions,.. HELP me :) !!! PLEASE BE CAREFULLY !!!" rows="3" cols="30" label="ATTENTION->READ !!!" description=""/> 
+	  
+	  <param name="@spacer" type="spacer" default="" label="" description=""/> 
+
+      <param name="zoomMenueTOPspacer" type="text" size="5" default="0" label="Top Spacer" description="Spacer on TOP for varius Templates"/>
+	  
+	  <param name="@spacer" type="spacer" default="" label="" description=""/> 
+	  
+	  <param name="zoomMenueImageW" type="text" size="5" default="40" label="RootImage Width" description="Menue Image Width 4:3"/>
+	  <param name="zoomMenueImageH" type="text" size="5" default="30" label="RootImage Hight" description="Menue Image Hight 4:3"/>
+	  <param name="zoomMenueRoot" type="text" size="5" default="0" label="Root Catid" description="catid of root for menue"/>
+	  <param name="zoomMenueRootRand" type="radio" default="0" label="Random Menue" description="Random Menue yes/no !using also before configured root!">
+			<option value="0">no</option>
+			<option value="1">yes</option>
+	  </param>
+	  <param name="zoomMenueDCut" type="text" size="5" default="18" label="Discription CUTTING" description="Max Stringlen until YOUR design crashes!"/>
+	  
+	  <param name="@spacer" type="spacer" default="" label="" description=""/> 
+	  
+	  <param name="zoomMenueSub" type="radio" default="0" label="En/Disable Submenue" description="Enable Submenue">
+			<option value="0">no</option>
+			<option value="1">yes</option>
+	  </param>
+	  <param name="zoomMenueSubDCut" type="text" size="5" default="18" label="Discription CUTTING" description="Max Stringlen until YOUR design crashes!"/>
+	  <param name="zoomMenueSubImageW" type="text" size="5" default="24" label="SubImage Width" description="SubMenue Image Width 4:3"/>
+	  <param name="zoomMenueSubImageH" type="text" size="5" default="18" label="SubImage Height" description="SubMenue Image Hight 4:3"/>
+
+      <param name="@spacer" type="spacer" default="" label="" description=""/> 
+
+      <param name="zoomMenueStyleWidth" type="text" size="10" default="160px" label="Module width" description="Width of the Module"/>	  
+	  <param name="zoomMenueStyleFont" type="text" size="10" default="arial" label="Fontface" description="Fontface for the strings"/>	  
+	  <param name="zoomMenueStyleFontSize" type="text" size="10" default="12px" label="Fontsize" description="Fontsize for the strings"/>	  
+	  <param name="zoomMenueStyleFontColorA" type="text" size="10" default="#c0c0c0" label="Color normal" description="Fontcolor normal"/>	  
+	  <param name="zoomMenueStyleFontColorB" type="text" size="10" default="#ff6600" label="Color hover" description="Fontcolor hover"/>	  
+	  <param name="zoomMenueStyleBgColorA" type="text" size="10" default="#000000" label="Bgcolor normal" description="Backgroundcolor normal"/>	  
+	  <param name="zoomMenueStyleBgColorB" type="text" size="10" default="#c0c0c0" label="Bgcolor hover" description="Backgroundcolor hover"/>	  
+	  <param name="zoomMenueStyleBgImageA" type="text" size="30" default="" label="Bgimage normal" description="Backgroundimage normal"/>	  
+	  <param name="zoomMenueStyleBgImageB" type="text" size="30" default="" label="Bgimage hover" description="Backgroundimage hover"/>	  
+	  
+	</params>
+</mosinstall>
+
+

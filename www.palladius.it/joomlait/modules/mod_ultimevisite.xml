@@ -1,0 +1,15 @@
+<?xml version="1.1" ?>
+<mosinstall type="module">
+    <name>ultimevisite</name>
+    <creationDate>19 gennaio 2006</creationDate>
+    <author>Bernardeschi Riccardo</author>
+    <copyright>This module is released under the GNU/GPL License.</copyright>
+    <authorEmail>ricca82it@gmail.com</authorEmail>
+    <authorUrl>http://ricca82it.altervista.org </authorUrl>
+    <version>1.0</version>
+    <description>Tradotto in Italiano da Bernardeschi Riccardo :Questo modulo visualizza gli ultimi 10 utenti che hanno fatto visita al sito. Per impostare a un numero diverso la visualizzazione
+    inserite count=x dove x corrisponde al numero di utenti nei parametri del modulo</description>
+     <files>
+         <filename module="mod_ultimevisite">mod_ultimevisite.php</filename>
+	 </files>
+</mosinstall>

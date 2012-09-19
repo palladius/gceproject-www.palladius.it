@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.4">
+	<name>Mod 4 com_zoom</name>
+	<author>Per Lasse Baasch</author>
+	<creationDate>Dezember 2005</creationDate>
+	<copyright>skycube.net</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>www.skycube.net</authorEmail>
+	<authorUrl>www.skycube.net</authorUrl>
+	<version>2b230</version>
+	<description>mod_zoom is the official module for joomla! Open Source with the component zoom media gallery. Requirementss: com_zoom_2.5 rc1. Download at www.zoomfactory.org and www.skycube.net - Demo at www.bsekrank.de - Have fun</description>
+	<files>
+	<filename module="mod_zoom">mod_zoom.php</filename>
+	</files>
+	<params>
+	  <param name="zoomModule" type="list" default="2" label="View method" description="">
+			<option value="1">all</option>
+			<option value="2">random</option>
+			<option value="3">new</option>
+			<option value="4">hits</option>
+			<option value="5">votes</option>
+	  </param>
+	 <param name="showcount" type="list" default="2" label="Show totalcount" description="">
+			<option value="1">no</option>
+			<option value="2">yes</option>
+	  </param>
+	  <param name="showupdate" type="list" default="2" label="Show last update" description="">
+			<option value="1">no</option>
+			<option value="2">yes</option>
+	  </param>
+	  <param name="showcatnames" type="list" default="2" label="Show gallery names" description="">
+			<option value="1">no</option>
+			<option value="2">yes</option>
+	  </param>
+	  <param name="showmeth" type="list" default="2" label="Show method" description="">
+			<option value="1">no</option>
+			<option value="2">yes</option>
+	  </param>
+	  <param name="date_format" type="text" size="10" default="j M, H:i" label="Dateformat" description="j M, H:i"/>
+	  <param name="showhits" type="list" default="1" label="Show Hits" description="">
+			<option value="1">no</option>
+			<option value="2">yes</option>
+	  </param>
+	  <param name="showrates" type="list" default="1" label="Show rating" description="">
+			<option value="1">no</option>
+			<option value="2">yes</option>
+	  </param>
+	  <param name="onlythiscat" type="text" size="10" default="0" label="Only from this gallery"/>
+	  <param name="counttoshow" type="list" default="1" label="Show number of media" description="">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+	  </param>
+	  
+	  <param name="directmenue" type="list" default="2" label="Show gallery dropdown" description="Direct access menue">
+			<option value="1">no</option>
+			<option value="2">yes</option>
+	  </param>
+	  <param name="directmenuedisc" type="list" default="2" label="Show dropdown caption" description="Show a title for the dropdown menue">
+			<option value="1">no</option>
+			<option value="2">yes</option>
+	  </param>
+	  <param name="directmenuecut" type="text" size="5" default="20" label="Cut the catnames in the dropdown menue"/> 
+	  
+	  <param name="@spacer" type="spacer" default="" label="" description=""/> 
+	  
+	  <param name="zoomMLang_count" type="text" size="20" default="Number of media:" label="Lang totalcount"/> 
+	  <param name="zoomMLang_lastup" type="text" size="20" default="Last update:" label="Lang last update"/> 
+	  <param name="zoomMLang_hits" type="text" size="20" default="hits" label="Lang hits"/> 
+	  <param name="zoomMLang_rates" type="text" size="20" default="rates" label="Lang rates"/> 
+	  <param name="zoomMLang_votes" type="text" size="20" default="votes" label="Lang votes"/> 
+	  <param name="zoomMLang_newest" type="text" size="20" default="newest" label="Lang newest"/> 
+	  <param name="zoomMLang_random" type="text" size="20" default="random" label="Lang random"/> 
+	  <param name="zoomMLang_directm" type="text" size="20" default="Go to gallery:" label="Lang dropdown"/> 
+	   
+	</params>
+</mosinstall>
