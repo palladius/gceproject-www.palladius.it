@@ -1,0 +1,53 @@
+#################################################
+#                                               #
+#  Glossary Component                           #
+#  Version: 1.9.2                               #
+#                                               #
+#                                               #
+#  Authors:                                     #
+#                                               #
+#    Name   : Martin Brampton                   #
+#    Email  : martin@remository.com             #
+#    Website: www.remository.com                #
+#                                               #
+#    Name   : Bernhard Zechmann                 #
+#    Email  : admin@zechmann.com                #
+#    Website: www.zechmann.com                  #
+#                                               #
+#################################################
+
+CHANGELOG
+
+20-July 2006
+ - Version 1.9.2
+ - various changes to harden security
+
+24-Jun-2006
+ - Version 1.9.1
+ - fixed pagination problem
+ - option for showing category descriptions
+ - option for using default editor to add entries
+ - update of appearance in admin backend
+ - some minor fixes
+ - database modification: NO
+
+18-Jun-2006
+ - Version 1.9.0
+ - fixed adminform style sheet
+ - fixed regexp problem in "others" link/sql
+ - fixed error in page navigation
+ - fixed allow entries = no > no admin-edit
+ - fixed glossary content width=100%
+ - fixed bug in component / glossary heading
+ - fixed translation of search form and search button
+ - mass un-/publishing of entries
+ - added mainpage title 
+ - editors/admins are always allowed to add entries
+ - added more languages
+ - added option for show number of entries
+ - database modification: NO
+
+06-Oct-2005
+ - Version 1.8.0 Initial Release by M. Brampton
+
+#################################################

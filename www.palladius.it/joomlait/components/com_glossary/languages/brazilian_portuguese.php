@@ -1,0 +1,88 @@
+<?php
+##########################################
+# Glossary Component for Mambo			 #
+# Copyright  : mamboaddons.com			 #
+# Homepage 	 : www.mamboaddons.com  	 #
+# Version    : 1.4           			 #
+# License    : Released under GPL        #
+##########################################
+# Based on: 							 #
+##########################################
+# Glossary 1.3 (Michelle Farran)		 #
+# and									 #
+# AkoBook - A Mambo Guestbook Component! #
+# Copyright (C) 2003  by  Arthur Konze   #
+# Homepage   : www.mamboportal.com       #
+# Version    : 3.0 beta 1                #
+# License    : Released under GPL        #
+##########################################
+
+
+
+
+// Header language definitions
+DEFINE("_GLOSSARY_TITLE","Glossário");
+DEFINE("_GLOSSARY_SELECT","Favor selecionar uma letra para ver os termos.");
+DEFINE("_GLOSSARY_BEFOREENTRIES","Há");
+DEFINE("_GLOSSARY_AFTERENTRIES","termos neste glossário.");
+DEFINE("_GLOSSARY_PAGES","Páginas:");
+DEFINE("_GLOSSARY_ONLYREGISTERED","Somente usuários registrados podem enviar termos.<br />Favor logar e registrar.");
+
+// GLOSSARY language definitions
+DEFINE("_GLOSSARY_TERM","Termo");
+DEFINE("_GLOSSARY_TERMS","Termos");
+DEFINE("_GLOSSARY_AUTHOR","Autor");
+DEFINE("_GLOSSARY_GLOSSARY","Glossário");
+DEFINE("_GLOSSARY_FROM","De");
+DEFINE("_GLOSSARY_DEFINITION","Definição");
+DEFINE("_GLOSSARY_SEARCH","Buscar");
+DEFINE("_GLOSSARY_ALL","Todos");
+DEFINE("_GLOSSARY_OTHER","Outros");
+DEFINE("_GLOSSARY_NEW","Novo");
+DEFINE("_GLOSSARY_SIGNEDON","Criado");
+DEFINE("_GLOSSARY_ADMINSCOMMENT","Comentário");
+DEFINE("_GLOSSARY_VIEW","Vizualizar glossário");
+DEFINE("_GLOSSARY_ENTRY","Definição");
+DEFINE("_GLOSSARY_NAME","Termo");
+DEFINE("_GLOSSARY_SUBMIT","Enviar termo");
+
+// Form language definitions
+DEFINE("_GLOSSARY_VALIDATE","Favor colocar ao menos seu nome, o termo, definição e categoria.");
+DEFINE("_GLOSSARY_ENTERNAME","Seu nome:");
+DEFINE("_GLOSSARY_ENTERMAIL","Seu email:");
+DEFINE("_GLOSSARY_ENTERPAGE","Sua página na web:");
+DEFINE("_GLOSSARY_ENTERCOMMENT","Seu comentário:");
+DEFINE("_GLOSSARY_ENTERLOCA","De onde você é:");
+DEFINE("_GLOSSARY_ENTERTERM","O termo:");
+DEFINE("_GLOSSARY_ENTERDEFINITION","Definição:");
+DEFINE("_GLOSSARY_SUBMITFORM","Enviar");
+DEFINE("_GLOSSARY_SENDFORM","Enviar");
+DEFINE("_GLOSSARY_CLEARFORM","Limpar");
+
+// Save language definitions
+DEFINE("_GLOSSARY_SAVED","Entrada salva no glossário.");
+
+// Admin language definitions
+DEFINE("_GLOSSARY_DELENTRY","Deletar termo");
+DEFINE("_GLOSSARY_DELMESSAGE","O termo foi removido.");
+DEFINE("_GLOSSARY_DEFVALIDATE","Favor colocar uma definição.");
+DEFINE("_GLOSSARY_COMMENTSAVED","Seu comentário foi salvo.");
+DEFINE("_GLOSSARY_COMMENTDELETED","Seu comentário foi deletado.");
+DEFINE("_GLOSSARY_ADMIN","Admin");
+DEFINE("_GLOSSARY_AEDIT","Editar");
+DEFINE("_GLOSSARY_ACOMMENT","Comentário");
+DEFINE("_GLOSSARY_ACOMMENTDEL","Deletar Comentário");
+DEFINE("_GLOSSARY_ADELETE","Deletar");
+
+// Email language definitions
+DEFINE("_GLOSSARY_ADMINMAILHEADER","Um novo termo no glossário");
+DEFINE("_GLOSSARY_ADMINMAIL","Olá Admin,\n\nUm novo usuário enviou um novo termo para o glossário em $mosConfig_live_site:\n");
+DEFINE("_GLOSSARY_USERMAILHEADER","Muito obrigado pelo seu envio para o glossário.");
+DEFINE("_GLOSSARY_USERMAIL","Prez. usuário,\n\nAgradecemos o envio para o glossário em $mosConfig_live_site:\n Ele será revisado e será adicionado ao site assim que possível.\n");
+DEFINE("_GLOSSARY_MAILFOOTER","Favor não responder a esta mensagem. Ela é gerada automaticamente pelo sistema e tem o propósito de informação apenas.\n");
+
+// update 1.9.0
+DEFINE("_GLOSSARY_SEARCHSTRING","buscar...");
+DEFINE("_GLOSSARY_SEARCHBUTTON","GO");
+
+?>

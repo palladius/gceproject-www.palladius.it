@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="1.0.0">
+	<name>Content Page</name>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Mostra una singola pagina contenuti</description>
+	<params>
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Suffisso Class CSS pagina" description="Un suffisso applicato alla classe css della pagina, permette uno stile pagina individuale" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, che rimanda alla precedente pagina visitata">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="item_title" type="radio" default="1" label="Titolo pagina" description="Mostra/Nascondi Titolo della pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="link_titles" type="list" default="" label="Titoli come ipertesto" description="rendi il titolo cliccabile come collegamento web">
+			<option value="">Uso Globali</option>
+			<option value="0">No</option>
+			<option value="1">Si</option>
+		</param>
+		<param name="introtext" type="radio" default="1" label="Testo introduttivo" description="Mostra/Nascondi testo introduttivo">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="section" type="radio" default="0" label="Nome sezione" description="Mostra/Nascondi il nome della sezione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="section_link" type="radio" default="0" label="Nome sezione ipertesto" description="Rendi il nome della sezione come ipertesto collegato alla relativa sezione">
+			<option value="0">No</option>
+			<option value="1">Si</option>
+		</param>
+		<param name="category" type="radio" default="0" label="Nome categoria" description="Mostra/Nascondi il nome della categoria">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="category_link" type="radio" default="0" label="Nome categoria ipertesto" description="Rendi il nome della categoria come ipertesto collegato alla relativa categoria">
+			<option value="0">No</option>
+			<option value="1">Si</option>
+		</param>
+		<param name="rating" type="list" default="" label="Valutazione/voto" description="Mostra/Nascondi la volutazione/voto - ha effetto solo per questa pagina">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="author" type="list" default="" label="Nome autore" description="Mostra/Nascondi Nome autore - ha effetto solo per questa pagina">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="createdate" type="list" default="" label="Data creazione ed ora" description="Mostra/Nascondi la data di creazione - ha effetto solo per questa pagina">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="modifydate" type="list" default="" label="Data modifica ed ora" description="Mostra/Nascondi la data di modifica - ha effetto solo per questa pagina">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="pdf" type="list" default="" label="Icona PDF" description="Mostra/Nascondi il icona pdf - ha effetto solo per questa pagina">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="print" type="list" default="" label="Icona Stampa" description="Mostra/Nascondi il icona stampa - ha effetto solo per questa pagina">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="email" type="list" default="" label="Icona Email" description="Mostra/Nascondi il icona email - ha effetto solo per questa pagina">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="keyref" type="text" size="25" default="" label="Referenze" description="Un testo chiave per referenze esempio (aiuto) " />
+		<param name="docbook_type" type="list" default="" label="Tipo DocBook" description="Associare un tipo di documento DocBook document con questo articolo (Note: esperimento, non ancora in produzione ).">
+			<option value=""></option>
+			<option value="appendix">Appendice</option>
+			<option value="article">Articolo</option>
+			<option value="book">Libro</option>
+			<option value="chapter">Capitolo</option>
+			<option value="glossary">Glossario</option>
+			<option value="part">Parte</option>
+			<option value="refentry">Referenza</option>
+			<option value="section">Sezione</option>
+		</param>
+	</params>
+</mosinstall>

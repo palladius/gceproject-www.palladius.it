@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Blog - Contenuto Categoria</name>
+	<group>Content</group>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Mostra i contenuti di una o più categorie in formato Blog</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" Nascondi_default="1" default="" label="Immagine Menu" description="Una piccola immagine viene collocata a destra o sinistra degli oggetti menu, le immagini devono risiedere nella cartella images/stories/" />
+		<param name="pageclass_sfx" type="text" default="" label="Suffisso class css pagina" description="Un suffix da applicare alla class css della pagina, questo per avere uno stile individuale per la pagina" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, questo riporta alla pagina precedentemente visitata">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="header" type="text" size="30" default="" label="Titolo Pagina" description="Testo da mostrare in alto nella pagina" />
+		<param name="page_title" type="radio" default="1" label="Titolo Pagina" description="Mostra/Nascondi il titolo della pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="leading" type="text" size="3" default="1" label="# Leading" description="Numero di articoli da mostrare come leading (pieno schermo). 0 significa che nessun articolo leader viene mostrato." />
+		<param name="intro" type="text" size="3" default="4" label="# Intro" description="Numero di articoli con il testo introduttivo posso mostrare?." />
+		<param name="columns" type="text" size="3" default="2" label="Colonne" description="Quando mostro i testi introduttivi delgi articoli, quante colonne devo usare per riga?" />
+		<param name="link" type="text" size="3" default="4" label="# Links" description="Numero di articoli da mostrare come links." />
+		<param name="orderby_pri" type="list" default="" label="Ordine Categoria" description="Ordina articoli per categoria">
+			<option value="">Nessun, ordinamento ma solo ordine primario</option>
+			<option value="alpha">Ordine alfabetico A-Z</option>
+			<option value="ralpha">Ordine alfabetico al contrario Z-A</option>
+			<option value="order">Ordering</option>
+		</param>
+		<param name="orderby_sec" type="list" default="" label="Ordine primario" description="Ordine nel quale gli articoli vengono mostrati.">
+			<option value="">Predefinito</option>
+			<option value="date">I vecchi prima</option>
+			<option value="rdate">Prima i più recenti</option>
+			<option value="alpha">Titoli in ordine alfabetico A-Z</option>
+			<option value="ralpha">Titoli in ordine alfabetico al contrario Z-A</option>
+			<option value="author">Autore in ordine alfabetico A-Z</option>
+			<option value="rauthor">Autore in ordine alfabetico al contrario Z-A</option>
+			<option value="hits">Più letti</option>
+			<option value="rhits">Meno letti</option>
+			<option value="order">Ordinamento</option>
+		</param>
+		<param name="pagination" type="list" default="2" label="Paginazione" description="Mostra/Nascondi supporto paginazione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+			<option value="2">Auto</option>
+		</param>
+		<param name="pagination_results" type="radio" default="1" label="Risultati paginazione" description="Mostra/Nascondi Risultati paginazione ( es. 1-4 di 4 )">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="image" type="radio" default="1" label="MOSImages" description="Mostra {mosimages}.">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+ 		<param name="description" type="radio" default="0" label="Descrizione" description="Mostra/Nascondi la descrizione della Categoria">
+ 			<option value="0">Nascondi</option>
+ 			<option value="1">Mostra</option>
+ 		</param>
+		<param name="description_image" type="radio" default="0" label="Descrizione Immagine" description="Mostra/Nascondi la descrizione della Categoria">
+ 			<option value="0">Nascondi</option>
+ 			<option value="1">Mostra</option>
+ 		</param>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />	
+ 		<param name="category" type="radio" default="0" label="Category Name" description="Mostra/Nascondi the Category the item belongs to">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="category_link" type="radio" default="0" label="Nome Categoria come link" description="Rendi il testo della categoria come link nella attuate pagina categoria">
+			<option value="0">No</option>
+			<option value="1">Si</option>
+		</param>
+		<param name="item_title" type="radio" default="1" label="Item Titles" description="Mostra/Nascondi il titolo oggetto">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="link_titles" type="list" default="" label="Linked Titles" description="Rendi il titotlo come collegamento">
+			<option value="">Usa Globali</option>
+			<option value="0">No</option>
+			<option value="1">Si</option>
+		</param>
+		<param name="readmore" type="list" default="" label="Read More" description="Mostra/Nascondi Il link leggi tutto">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>	
+		<param name="rating" type="list" default="" label="Valutazione/Voto" description="Mostra/Nascondi il voto/valutazione articoli - ha effetto solo su questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="author" type="list" default="" label="Nome Autore" description="Mostra/Nascondi Il nome autore degli articoli - ha effetto solo su questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="createdate" type="list" default="" label="Data e ora di Creazione" description="Mostra/Nascondi Data e ora di Creazione - ha effetto solo su questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="modifydate" type="list" default="" label="Data e ora delle Modifiche" description="Mostra/Nascondi Data e ora delle Modifiche - ha effetto solo su questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="pdf" type="list" default="" label="Icona PDF " description="Mostra/Nascondi il bottone pdf - ha effetto solo su questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="print" type="list" default="" label="Icona Stampa " description="Mostra/Nascondi il bottone stampa - ha effetto solo su questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="email" type="list" default="" label="Icona Email " description="Mostra/Nascondi il bottone email - ha effetto solo su questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+ 		<param name="unpublished" type="radio" default="0" label="Elementi non pubblicati" description="Mostra/Nascondi elementi non pubblicati per utenti del gruppo `Publisher` e superiori">
+ 			<option value="0">Nascondi</option>
+ 			<option value="1">Mostra</option>
+		</param>
+	</params>
+</mosinstall>

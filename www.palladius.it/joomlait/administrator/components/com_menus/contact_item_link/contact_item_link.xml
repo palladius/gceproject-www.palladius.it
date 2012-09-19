@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Collegamento - Contatto</name>
+	<group>Component|Link</group>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Crea un collegamento ad un contatto</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Immagine Menu" description="Una piccola immagine viene collocata a destra o sinistra degli oggetti menu, le immagini devono risiedere nella cartella images/stories/" />
+		<param name="pageclass_sfx" type="text" default="" label="Suffisso class css pagina" description="Un suffix da applicare alla class css della pagina, questo per avere uno stile individuale per la pagina" />
+		<param name="page_title" type="radio" default="1" label="Titolo pagina" description="Mostra/Nascondi il titolo pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Titolo pagina" description="Testo da mostrare. se lasciato vuoto, prende il nome del menu" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="bannedEmail" type="text" default="" label="Banna Email" size="40" description="Email contenente parti di testo indicato verranno bannate, separare le parole da bannare con punto e virgola come da esempio es. ban;testo;etc" />
+		<param name="bannedSubject" type="text" default="" label="Banna Oggetto" size="40" description="Oggetti contenenti parti di testo indicato verranno bannati, separare le parole da bannare con punto e virgola come da esempio es. ban;testo;etc" />
+		<param name="bannedText" type="text" default="" label="Banna Testo" size="40" description="Testo contenente le parole indicate vine bannato, separare le parole da bannare con punto e virgola come da esempio es. ban;testo;etc" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="session" type="radio" default="1" label="Controllo sessione" description="Controllo esistenza del cookie sessione, questo sta a significare che un utente senza cookie sessione non può inviare email">
+			<option value="0">Mostra</option>
+			<option value="1">Nascondi</option>
+		</param>
+	</params>
+</mosinstall>

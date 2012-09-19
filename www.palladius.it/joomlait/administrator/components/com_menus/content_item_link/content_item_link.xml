@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Collegamento - Contenuto</name>
+	<group>Content|Link</group>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Crea un collegamento ad un contenuto</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Immagine Menu" description="Potete inserire una piccola immagine a destra o a sinistra del vostro menu oggetto, le immagini devono risiedere nella directory images/stories/" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="unique_itemid" type="radio" default="0" label="Unico Itemid" description="Utilizza un unico Itemid per il collegamento">
+			<option value="0">No</option>
+			<option value="1">Si</option>
+		</param>
+	</params>
+</mosinstall>

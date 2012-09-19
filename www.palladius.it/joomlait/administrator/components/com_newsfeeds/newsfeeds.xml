@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="1.0.0">
+	<name>Newsfeeds</name>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>This component manages RSS/RDF newsfeeds</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Immagine menu" description="Una piccola immagine posizionata a destra o sinistra della voce di menu, immagine che deve risiedere nella cartella images/stories/" />
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Suffisso class css pagina" description="Un suffisso applicato alla classe css della pagina, permette uno stile pagina individuale" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, che ritorna alla precedente pagina visitata">
+			<option value="">Uso Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="Titolo pagina" description="Mostra/Nascondi Titolo">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Intestazione" description="Testo da mostrare in alto alla pagina. Se lasciato vuoto, viene utilizzato il nome del menu" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat_section" type="radio" default="1" label="Lista Categoria  - Sezione" description="Mostra/Nascondi la lista delle categorie nella visuale lista">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat" type="radio" default="1" label="Lista Categoria - Categoria" description="Mostra/Nascondi la lista delle categorie nella visuale tabella">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="cat_description" type="radio" default="1" label="Descrizione categorie" description="Mostra/Nascondi la descrizione per le altre categorie in lista">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="cat_items" type="radio" default="1" label="# Articoli categorie" description="Mostra/Nascondi il numero di articoli in ogni categorie">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="description" type="radio" default="1" label="Descrizione" description="Mostra/Nascondi la descrizione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="description_text" type="textarea" default="" label="Testo descrizione" rows="5" cols="30" description="Description for page"/>
+		<param name="image" type="imagelist" directory="/images/stories" hide_default="1" default="-1" label="Immagini" description="Immagini per pagina, devono risiedere nella cartella /images/stories. Di defaul viene caricata web_links.jpg, Nessuna immagine significa che nessuna immagine viene caricata" />
+		<param name="image_align" type="radio" default="right" label="Allineamento immagine" description="Allineamento delle immagini">
+			<option value="left">Sinistra</option>
+			<option value="right">Destra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="headings" type="radio" default="1" label="Tabella instestazione" description="Mostra/Nascondi la tabella intestazione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="name" type="radio" default="1" label="Colonna nome" description="Mostra/Nascondi la colonna nome del feed">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="articles" type="radio" default="1" label="# Colonna articoli" description="Mostra/Nascondi il numero di articoli nel feed">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="link" type="radio" default="0" label="Colonna collegamenti web" description="Mostra/Nascondi la colonna collegamenti del feed">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="feed_image" type="radio" default="1" label="Immagine feed" description="Mostra/Nascondi the image of the feed">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="feed_descr" type="radio" default="1" label="Descrizione feed" description="Mostra/Nascondi la descrizione del feed">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="item_descr" type="radio" default="1" label="Descrizione articolo" description="Mostra/Nascondi la descrizione o il testo introduttivo">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="word_count" type="text" size="6" default="0" label="Numero di lettere" description="Permette di limitare il numero visibile di caratteri nella descrizione. 0 significa che viene visualizzato tutto il testo" />
+	</params>
+</mosinstall>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Tabella - Categoria Weblink</name>
+	<group>Component</group>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Mostra la tabella di una specifica categoria weblinks</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Immagine Menu" description="Una piccola immagine viene collocata a destra o sinistra degli oggetti menu, le immagini devono risiedere nella cartella images/stories/" />
+		<param name="pageclass_sfx" type="text" default="" label="Suffisso class css pagina" description="Un suffix da applicare alle classes css della pagina, questo per avere uno stile individuale per la pagina" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, questo riporta alla pagina precedentemente visitata">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="Titolo Pagina" description="Mostra/Nascondi Titolo Pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Titolo Pagina" description="Testo da visualizzare in alto nella pagina. se lasciato vuoto prende in automatico il nome del menu" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="headings" type="radio" default="1" label="Instestazione" description="Mostra/Nascondi Instestazione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="hits" type="list" default="" label="Visite" description="Mostra/Nascondi La colonna visite">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="item_description" type="radio" default="1" label="Descrizione Link" description="Mostra/Nascondi Il testo descrittivo del link">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat" type="radio" default="1" label="Altre Categorie" description="Quando visualizzo la categoria, Mostra/Nascondi la lista delle altre categorie">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="weblink_icons" type="imagelist" directory="/images/M_images" default="" label="Icona" description="Icona da inserire a sinistra del collegamento URL nella visuale tabella" />
+	</params>
+</mosinstall>

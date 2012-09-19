@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="1.0.0">
+	<name>Weblinks</name>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Questo componente mostra una lista di Collegamenti web</description>
+	<params>
+		<param name="target" type="list" default="0" label="Target" description="Finestra dove desideriamo aprire il collegamento">
+			<option value="0">Stessa finestra con navigatore browser</option>
+			<option value="1">Nuova finestra con navigatore browser</option>
+			<option value="2">Nuova finestra senza navigatore browser</option>
+		</param>
+	</params>
+</mosinstall>

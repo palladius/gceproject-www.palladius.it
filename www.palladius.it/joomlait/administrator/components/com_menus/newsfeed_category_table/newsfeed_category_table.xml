@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Tabella - Categoria Newsfeed</name>
+	<group>Component</group>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Mostra una tabella col la lista del contenuto di una categoria Newsfeed </description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" Nascondi_default="1" default="" label="Immagine Menu" description="Una piccola immagine viene collocata a destra o sinistra degli oggetti menu, le immagini devono risiedere nella cartella images/stories/" />
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Suffisso class css pagina" description="Un suffisso da applicare alla class css della pagina, questo permette uno stile diverso per la pagina" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, questo riporta alla pagina precedentemente visitata">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="Titolo Pagina" description="Mostra/Nascondi Titolo Pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Titolo Pagina" description="Testo da visualizzare in alto nella pagina. se lasciato vuoto prende in automatico il nome del menu" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="headings" type="radio" default="1" label="Intestazione tabella" description="Mostra/Nascondi Intestazione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="name" type="radio" default="1" label="Nome Collonna" description="Mostra/Nascondi la colonna nome">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="articles" type="radio" default="1" label="Colonna articoli" description="Mostra/Nascondi la colonna articoli">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="link" type="radio" default="0" label="Colonna collegamenti" description="Mostra/Nascondi la colonna colegamenti">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat" type="radio" default="1" label="Altre Categorie" description="quando visulizzi una categoria, Mostra/Nascondi la lista delle categorie">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="cat_description" type="radio" default="1" label="Descrizione Categoria" description="Mostra/Nascondi la descrizione delle altre categorie">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="cat_items" type="radio" default="1" label="# Oggetti Categoria" description="Mostra/Nascondi il numero di oggetti nella categoria">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+	</params>
+</mosinstall>

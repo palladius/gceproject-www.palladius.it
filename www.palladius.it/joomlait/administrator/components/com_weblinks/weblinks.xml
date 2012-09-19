@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="1.0.0">
+	<name>Weblinks</name>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Questo componente mostra una lista di collegamenti web</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Immagine Menu" description="Una piccola immagine collocata a destra o a sinistra della voce di menu, deve risiedere nella cartella images/stories/" />
+		<param name="pageclass_sfx" type="text" default="" label="Page Class Suffix" description="Un suffisso da applicare alla class css della pagina, questo per ottenere uno stile individuale per la pagina" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, che ci riporta alla pagina precedentemente visitata">
+			<option value="">Usa globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="Page Title" description="Mostra/Nascondi il titolo della pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Titolo pagina" description="Testo da mostrare in alto nella pagina. Se lasciato vuoto, il nome del menu viene utilizzato al suo posto" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="headings" type="radio" default="1" label="Intestazione tabella" description="Mostra/Nascondi intestazione della tabella">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="hits" type="list" default="" label="Visite" description="Mostra/Nascondi la colonna visite">
+			<option value="">Usa globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="item_description" type="radio" default="1" label="Descrizione collegamento" description="Mostra/Nascondi il testo della descrizione del collegamento">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat_section" type="radio" default="1" label="Lista Categoria - Sezione" description="Mostra/Nascondi la lista della categorie nella visuale lista">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat" type="radio" default="1" label="Lista Categoria - Categoria" description="Mostra/Nascondi la lista della categorie nella visuale tabella">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="description" type="radio" default="1" label="Descrizione" description="Mostra/Nascondi la descrizione che segue">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="description_text" type="textarea" default="" label="Testo descrizione" rows="5" cols="30" description="Descrizione della pagina, se lasciato vutoto viene caricata la definizione della lingua in uso  _WEBLINKS_DESC  dal vostro file lingua"/>
+		<param name="image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Immagine" description="Immagine della pagina, deve trovarsi nella cartella /images/stories. Predefinita web_links.jpg, Nessuna immagine significa immagine non caricata" />
+		<param name="image_align" type="radio" default="right" label="Allineamento immagine" description="Allinamento della immagine">
+			<option value="left">Sinistra</option>
+			<option value="right">Destra</option>
+		</param>
+		<param name="weblink_icons" type="imagelist" directory="/images/M_images" default="" label="Icona" description="Icona da utilizzare a sinistra del collegamento nella visuale tabella" />
+	</params>
+</mosinstall>

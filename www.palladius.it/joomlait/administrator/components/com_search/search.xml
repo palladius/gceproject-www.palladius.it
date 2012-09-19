@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="1.0.0">
+	<name>Search</name>
+	<author>Joomla! Project</author>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Questo componete serve per la gestione delle funzioni di ricerca.</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" default="" label="Immagine menu" description="Una piccola immagine collocata a destra o a sinistra della voce di menu, deve risiedere nella cartella images/stories/"/>
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Suffisso class css pagina" description="Un suffisso da applicare alla class css della pagina, questo per ottenere uno stile individuale per la pagina"/>
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, che ci riporta alla pagina precedentemente visitata">
+			<option value="">Usa globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="Titolo pagina" description="Mostra/Nascondi titolo della pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Titolo pagina" description="Testo da mostrare in alto nella pagina. Se lasciato vuoto, viene utilizato il nome del menu in automatico al suo posto"/>
+	</params>
+</mosinstall>

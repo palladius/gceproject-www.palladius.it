@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Tabella - Categoria Contatti</name>
+	<group>Component</group>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Mostra una tabella dei contatti inseriti in una categoria particolare</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Immagine Menu" description="Una piccola immagine viene collocata a destra o sinistra degli oggetti menu, le immagini devono risiedere nella cartella images/stories/" />
+		<param name="pageclass_sfx" type="text" default="" label="Suffisso class css pagina" description="Un suffix da applicare alla class css della pagina, questo per avere uno stile individuale per la pagina" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, questo riporta alla pagina precedentemente visitata">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="Titolo Pagina" description="Mostra/Nascondi Titolo Pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Titolo Pagina" description="Testo da visualizzare in alto nella pagina. se lasciato vuoto prende in automatico il nome del menu" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat" type="radio" default="1" label="Altre Categorie" description="Quando visualizzo la Categoria, Mostra/Nascondi la lista delle altre categorie">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="cat_description" type="radio" default="1" label="Descrizione categoria" description="Mostra/Nascondi La descrizione per la lista delle altre categorie">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="cat_items" type="radio" default="1" label="# Oggeti Categoria" description="Mostra/Nascondi il numero di articoli per ogni categoria">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="headings" type="radio" default="1" label="Intestazione" description="Mostra/Nascondi Intestazione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="position" type="radio" default="1" label="Posizioni Colonne" description="Mostra/Nascondi Posizioni Colonne">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="email" type="radio" default="1" label="Colonna Email" description="Mostra/Nascondi Colonna Email">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="telephone" type="radio" default="1" label="Colonna Telefono" description="Mostra/Nascondi Colonna Telefono">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="fax" type="radio" default="1" label="Colonna Fax" description="Mostra/Nascondi Colonna Fax">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="bannedEmail" type="text" default="" label="Banna Email" size="40" description="Email contenente parti di testo indicato verranno bannate, separare le parole da bannare con punto e virgola come da esempio es. ban;testo;etc" />
+		<param name="bannedSubject" type="text" default="" label="Banna Oggetto" size="40" description="Oggetti contenenti parti di testo indicato verranno bannati, separare le parole da bannare con punto e virgola come da esempio es. ban;testo;etc" />
+		<param name="bannedText" type="text" default="" label="Banna Testo" size="40" description="Testo contenente le parole indicate vine bannato, separare le parole da bannare con punto e virgola come da esempio es. ban;testo;etc" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="session" type="radio" default="1" label="Controllo sessione" description="Controllo esistenza del cookie sessione, questo sta a significare che un utente senza cookie sessione non può inviare email">
+			<option value="0">Mostra</option>
+			<option value="1">Nascondi</option>
+		</param>
+	</params>
+</mosinstall>

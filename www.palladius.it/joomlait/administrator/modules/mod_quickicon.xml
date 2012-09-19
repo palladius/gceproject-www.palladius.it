@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module">
+	<name>Quick Icons</name>
+	<author>Joomla! Project</author>
+	<creationDate>January 2005</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Questo modulo mostra le icone rapide del pannello di controllo amministratore`</description>
+	<files>
+		<filename module="mod_quickicon">mod_quickicon.php</filename>
+	</files>
+	<params>
+		<param name="securitycheck" type="radio" default="1" label="Controllo Sicurezza" description="Scegliere se visualizzare o meno il controllo sicurezza">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+	</params>
+</mosinstall>

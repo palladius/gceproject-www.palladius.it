@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+  <name>glossary</name>
+  <creationDate>29.06.2006</creationDate>
+  <author>Bernhard Zechmann, Sascha Claren, Martin Brampton</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>martin@remository.com</authorEmail>
+  <authorUrl>www.remository.com / www.zechmann.com</authorUrl>
+  <version>1.9.1</version>
+  <description>Glossary is a Joomla!/Mambo glossary component.</description>
+  <files>
+    <filename>glossary.php</filename>
+    <filename>glossary.html.php</filename>
+    <filename>glossary.class.php</filename>
+    <filename>images/email.gif</filename>
+    <filename>images/homepage.gif</filename>
+    <filename>languages/english.php</filename>
+    <filename>languages/catalan.php</filename>
+    <filename>languages/dutch.php</filename>
+    <filename>languages/french.php</filename>
+	<filename>languages/german.php</filename>
+    <filename>languages/germanf.php</filename>
+    <filename>languages/germani.php</filename>
+    <filename>languages/norwegian.php</filename>
+    <filename>languages/polish.php</filename>
+    <filename>languages/russian.php</filename>
+    <filename>languages/simplified_chinese.php</filename>
+    <filename>languages/spanish.php</filename>
+    <filename>languages/spanishf.php</filename>
+    <filename>languages/turkish.php</filename>
+	<filename>languages/brazilian_portuguese.php</filename>
+	</files>
+  <install>
+    <queries>
+      <query>
+       CREATE TABLE IF NOT EXISTS `#__glossary` (
+          `id` int(10) NOT NULL auto_increment,
+          `tterm` varchar(40) NOT NULL default '',
+          `tdefinition` text NOT NULL,
+          `tname` varchar(20) NOT NULL default '',
+          `tloca` varchar(60) default NULL,
+          `tmail` varchar(60) default NULL,
+          `tpage` varchar(150) default NULL,
+          `tdate` datetime default NULL,
+          `tcomment` text,
+          `tedit` enum('y','n') NOT NULL default 'n',
+          `teditdate` datetime default NULL,
+          `published` tinyint(1) NOT NULL default '0',
+          `catid` int(3) NOT NULL default '0',
+          `checked_out` int(11) NOT NULL default '0',
+          UNIQUE KEY `term` (`tterm`),
+          PRIMARY KEY  (`id`),
+          FULLTEXT (`tdefinition`)
+        ) TYPE=MyISAM
+      </query>
+      <query>
+        INSERT INTO `#__categories`
+          (`title`, `name`, `section`, `image_position`, `description`, `published`, `checked_out`, `checked_out_time`, `editor`, `ordering`, `access`, `count`) VALUES
+          ('Glossary', 'Glossary', 'com_glossary', 'left', 'Terms that are on use on this site.', 1, 0, '0000-00-00 00:00:00', NULL, 1, 0, 0);
+      </query>
+    </queries>
+  </install>
+  <uninstall>
+      <queries>
+      </queries>
+  </uninstall>
+    <installfile>install.glossary.php</installfile>
+    <uninstallfile>uninstall.glossary.php</uninstallfile>
+  <administration>
+    <menu>Glossary</menu>
+    <submenu>
+      <menu task="view">View Terms</menu>
+      <menu task="categories">Categories</menu>
+      <menu task="config">Edit Config</menu>
+      <menu task="about">About Glossary</menu>
+    </submenu>
+    <files>
+      <filename>admin.glossary.php</filename>
+      <filename>admin.glossary.html.php</filename>
+      <filename>class.glossary.php</filename>
+      <filename>config.glossary.php</filename>
+      <filename>install.glossary.php</filename>
+      <filename>toolbar.glossary.php</filename>
+      <filename>toolbar.glossary.html.php</filename>
+      <filename>uninstall.glossary.php</filename>
+	  <filename>changelog.txt</filename>
+	  <filename>readme.txt</filename>
+	  <filename>license.txt</filename>
+	  <filename>images/logo.png</filename>
+	  <filename>images/icon.png</filename>
+    </files>
+  </administration>
+</mosinstall>
+

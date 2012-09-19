@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Collegamento - Newsfeed</name>
+	<group>Component|Link</group>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Crea un collegamento ad un Newsfeed pubblicato</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" Nascondi_default="1" default="" label="Immagine Menu" description="Una piccola immagine viene collocata a destra o sinistra degli oggetti menu, le immagini devono risiedere nella cartella images/stories/" />
+		<param name="pageclass_sfx" type="text" default="" label="Suffisso class css pagina" description="Un suffix da applicare alle classes css della pagina, questo per avere uno stile individuale per la pagina" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, questo riporta alla pagina precedentemente visitata">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Titolo Pagina" description="Testo da visualizzare in alto nella pagina. se lasciato vuoto prende in automatico il nome del menu" />
+		<param name="page_title" type="radio" default="1" label="Titolo Pagina" description="Mostra/Nascondi Titolo Pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="feed_image" type="radio" default="1" label="Immagine Feed" description="Mostra/Nascondi immagine del feed">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="feed_descr" type="radio" default="1" label="Descrizione Feed" description="Mostra/Nascondi la desrizione del feed">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="item_descr" type="radio" default="1" label="Descrizione Oggetti" description="Mostra/Nascondi la descrizione o introduzione degli oggetti del feed">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="word_count" type="text" size="6" default="0" label="Contatore parole" description="Abilita il limite di parole visibili nel testo descrittivo. 0 significa Mostra tutto il testo" />
+	</params>
+</mosinstall>

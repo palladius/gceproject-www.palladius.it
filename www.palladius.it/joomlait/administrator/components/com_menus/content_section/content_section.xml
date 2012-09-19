@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Lista - Contenuto Sezione</name>
+	<group>Content</group>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Mostra  la lista dei contenuti di una sezione</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" Nascondi_default="1" default="" label="Immagine Menu" description="Una piccola immagine viene collocata a destra o sinistra degli oggetti menu, le immagini devono risiedere nella cartella images/stories/" />
+		<param name="page_title" type="radio" default="1" label="Titolo Pagina" description="Mostra/Nascondi Titolo Pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Suffisso class css pagina" description="Un suffix da applicare alla class css della pagina, questo permette uno stile diverso per la pagina" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il bottone indietro, questo riporta alla pagina precedentemente visitata">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="description_sec" type="radio" default="1" label="Descrizione sezione" description="Mostra/Nascondi la descrizione sezione">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="description_sec_image" type="radio" default="1" label="Immagine descrizione sezione" description="Mostra/Nascondi immagine descrizione sezione">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="orderby" type="list" default="" label="Ordina per" description="gestione orinamento degli articoli.">
+		<option value="">Predefinito</option>
+			<option value="alpha">Ordine alfabetico A-Z</option>
+			<option value="ralpha">Ordine alfabetico al contrario Z-A</option>
+			<option value="order">Ordering</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat_section" type="radio" default="1" label="Lista Sezioni" description="Mostra/Nascondi lista delle Sezioni">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="empty_cat_section" type="radio" default="0" label="Categorie vuote nella sezione" description="Mostra/Nascondi Categorie vuote (senza articoli) nella visuale sezione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="description" type="radio" default="0" label="Descrizione categoria" description="Mostra/Nascondi la descrizione della categoria">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="description_image" type="radio" default="0" label="Immagine descrizione categoria" description="Mostra/Nascondi immagine descrizione della categoria">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="other_cat" type="radio" default="1" label="Lista Categorie" description="Mostra/Nascondi lista delle Categorie">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="empty_cat" type="radio" default="0" label="Categorie Vuote" description="Mostra/Nascondi categorie vuote (senza articoli)">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="cat_items" type="radio" default="1" label="# Oggetti Categoria" description="Mostra/Nascondi numero di articoli in ogni categoria">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="cat_description" type="radio" default="1" label="Descrizione Categoria" description="Mostra/Nascondi Descrizione Categoria, appare sotto il nome della categoria">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="date_format" type="text" size="15" default="" label="Formato Date" description="Quale formato data mostrare, usa il comando PHPs strftime  - se lasciato in bianco utilizza quello che si trova nel tuo file lingua" />
+		<param name="date" type="list" default="" label="Colonna Data" description="Mostra/Nascondi colonna data">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="author" type="list" default="" label="Colonna Autore" description="Mostra/Nascondi colonna Autore">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="hits" type="list" default="" label="Colonna visite" description="Mostra/Nascondi colonna visite">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="headings" type="radio" default="1" label="Intestazione" description="Mostra/Nascondi the intestazione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="navigation" type="radio" default="1" label="Barra navigazione" description="Mostra/Nascondi Barra navigazione">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="order_select" type="radio" default="1" label="Seleziona ordinamento" description="Mostra/Nascondi Ordinamento del selettore dropdown">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="display" type="radio" default="1" label="Mostra selezione" description="Mostra/Nascondi seleziona con  dropdown">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="display_num" type="list" default="50" label="Mostra numeri" description="Number of items to be displayed by default">
+			<option value="5">5</option>
+			<option value="10">10</option>
+			<option value="15">15</option>
+			<option value="20">20</option>
+			<option value="25">25</option>
+			<option value="30">30</option>
+			<option value="50">50</option>
+		</param>
+		<param name="filter" type="radio" default="1" label="Filtri" description="Mostra/Nascondi applica filtri">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="filter_type" type="list" default="title" label="Campo Filtri" description="A quale campo vuoi applicare i filtri">
+			<option value="title">Titolo</option>
+			<option value="author">Autore</option>
+			<option value="hits">Visite</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+ 		<param name="unpublished" type="radio" default="0" label="Elementi non pubblicati" description="Mostra/Nascondi elementi non pubblicati per utenti del gruppo `Publisher` e superiori">
+ 			<option value="0">Nascondi</option>
+ 			<option value="1">Mostra</option>
+		</param>
+	</params>
+</mosinstall>

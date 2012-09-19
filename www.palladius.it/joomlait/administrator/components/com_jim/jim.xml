@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component">
+   <name>Jim</name>
+   <creationDate>07/04/2006</creationDate>
+   <author>Laurent Belloeil</author>
+   <copyright>This component is released under the GNU/GPL License		
+   </copyright>
+   <authorEmail>lbelloeil@comeonjoomla.net</authorEmail>
+   <authorUrl>http://www.comeonjoomla.net</authorUrl>
+   <version>1.0.1</version>
+   <description>Jim 1.0.1 is a Internal Messaging component for Joomla 1.0.x
+   </description>
+   <files>
+    <filename>readme.txt</filename>
+    <filename>jim.php</filename>
+    <filename>config.jim.php</filename>
+    <filename>jim.html.php</filename>
+    <filename>jim.css</filename>
+    <filename>tabs.css</filename>
+    <filename>buttons.css</filename>
+    <filename>header_buttons.html.php</filename>
+    <filename>header_tabs.html.php</filename>
+    <filename>jim_showinbox.html.php</filename>
+    <filename>jim_showoutbox.html.php</filename>
+    <filename>includes/actb2.js</filename>    
+    <filename>includes/actb2.css</filename>    
+    <filename>language/english.php</filename>
+    <filename>language/french.php</filename>
+    <filename>language/dutch.php</filename>
+    <filename>language/german.php</filename>
+    <filename>language/swedish.php</filename>
+    <filename>language/spanish.php</filename>
+    <filename>includes/img/arrowDown.gif</filename>
+    <filename>includes/img/arrowUp.gif</filename>
+   </files>
+
+  <images>
+       <filename>images/0.png</filename>
+       <filename>images/1.png</filename>
+       <filename>images/3.png</filename>
+       <filename>images/bg.gif</filename>
+       <filename>images/delete.png</filename>
+       <filename>images/left.gif</filename>
+       <filename>images/left_on.gif</filename>
+       <filename>images/norm_left.gif</filename>
+       <filename>images/norm_left_on.gif</filename>
+       <filename>images/norm_right.gif</filename>
+       <filename>images/norm_right_on.gif</filename>
+       <filename>images/reply.gif</filename>
+       <filename>images/right.gif</filename>
+       <filename>images/right_on.gif</filename>
+       <filename>images/nav.png</filename>
+  </images>
+   <install>
+         <queries>
+
+	      <query>DROP TABLE IF EXISTS `#__jim`</query>
+
+          <query>
+
+			 CREATE TABLE `#__jim` (
+			  `id` int(10) unsigned NOT NULL auto_increment,
+			  `username` varchar(20) NOT NULL default '',
+			  `whofrom` varchar(20) NOT NULL default '',
+			  `outbox` smallint(1) NOT NULL default '1',
+			  `date` datetime NOT NULL default '0000-00-00 00:00:00',
+			  `readstate` smallint(1) unsigned NOT NULL default '0',
+			  `subject` varchar(255) NOT NULL default '',
+			  `message` text NOT NULL,
+			  PRIMARY KEY  (`id`)
+			) TYPE=MyISAM;
+
+            </query>
+         </queries>
+   </install>
+   <uninstall>
+      <queries>
+      <query>DELETE FROM `#__jim`</query>
+      <query>DROP TABLE `#__jim`</query>
+      </queries>
+   </uninstall>
+
+   <installfile>install.jim.php</installfile>
+   <uninstallfile>uninstall.jim.php</uninstallfile>
+   <administration>
+      <menu>Jim</menu>
+      <submenu>
+         <menu task="Configuration">Configuration</menu>
+      </submenu>
+      <files>
+         <filename>jim.xml</filename>
+         <filename>admin.jim.php</filename>
+         <filename>admin.jim.html.php</filename>
+         <filename>install.jim.php</filename>
+         <filename>uninstall.jim.php</filename>
+         <filename>toolbar.jim.html.php</filename>
+         <filename>toolbar.jim.php</filename>
+      </files>
+   </administration>
+
+   </mosinstall>

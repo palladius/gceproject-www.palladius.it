@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+  <name>AkoLegal</name>
+  <creationDate>01.11.2004</creationDate>
+  <author>Arthur Konze</author>
+  <copyright>(C) Copyright 2004 by Arthur Konze. All rights reserved!</copyright>
+  <authorEmail>webmaster@konze.de</authorEmail>
+  <authorUrl>www.konze.de</authorUrl>
+  <version>2.0</version>
+  <description>AkoLegal is a Mambo Open Source 4.5.1 disclaimer component.</description>
+  <files>
+    <filename>akolegal.php</filename>
+  </files>
+  <images>
+    <filename>images/bank.png</filename>
+    <filename>images/home.png</filename>
+    <filename>images/note.png</filename>
+    <filename>images/star.png</filename>
+    <filename>languages/english.php</filename>
+    <filename>languages/germani.php</filename>
+  </images>
+  <install>
+  </install>
+  <uninstall>
+  </uninstall>
+  <installfile>install.akolegal.php</installfile>
+  <uninstallfile>uninstall.akolegal.php</uninstallfile>
+  <administration>
+    <menu>AkoLegal</menu>
+    <submenu>
+      <menu task="config">Edit Imprint</menu>
+      <menu task="language">Edit Language</menu>
+      <menu task="footer">Edit Footer</menu>
+      <menu task="about">About AkoLegal</menu>
+    </submenu>
+    <files>
+      <filename>admin.akolegal.php</filename>
+      <filename>admin.akolegal.html.php</filename>
+      <filename>config.akolegal.php</filename>
+      <filename>install.akolegal.php</filename>
+      <filename>toolbar.akolegal.php</filename>
+      <filename>toolbar.akolegal.html.php</filename>
+      <filename>uninstall.akolegal.php</filename>
+    </files>
+    <images>
+      <filename>images/logo.png</filename>
+    </images>
+</administration>
+</mosinstall>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="1.0.0">
+	<name>Typed Content Page</name>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Mostra una singola pagina contenuti</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Immagine Menu" description="Potete inserire una piccola immagine a destra o a sinistra della voce di menu, le immagini devono risiedere nella cartella images/stories/" />
+		<param name="item_title" type="radio" default="1" label=" Titolo pagina" description="Mostra/Nascondi il titolo della pagina">
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Suffisso class CSS pagina" description="Potete applicare con un suffiso alla classe CSS della pagina, questo garantisce uno stile individuale" />
+		<param name="back_button" type="list" default="" label="Bottone indietro" description="Mostra/Nascondi il Bottone indietro, per ritornare alla pagina precedentemente visitata">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="rating" type="list" default="" label="Valutazione" description="Mostra/Nascondi la votazione - ha effetto solo per questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="author" type="list" default="" label="Nome autore" description="Mostra/Nascondi il nome autore - ha effetto solo per questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="createdate" type="list" default="" label="Data ed ora di creazione" description="Mostra/Nascondi la data di creazione - ha effetto solo per questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="modifydate" type="list" default="" label="Data ed ora delle modifiche" description="Mostra/Nascondi la data delle modifiche - ha effetto solo per questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="pdf" type="list" default="0" label="Icona PDF" description="Mostra/Nascondi il icona PDF - ha effetto solo per questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="print" type="list" default="0" label="Icona stampa" description="Mostra/Nascondi il icona stampa - ha effetto solo per questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+		<param name="email" type="list" default="0" label="Icona email" description="Mostra/Nascondi il icona email - ha effetto solo per questa pagina">
+			<option value="">Usa Globali</option>
+			<option value="0">Nascondi</option>
+			<option value="1">Mostra</option>
+		</param>
+	</params>
+</mosinstall>
