@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="mambot" group="editors-xtd">
+	<name>Bottone MGM Gallery</name>
+	<author>Vamba</author>
+	<creationDate>Ottobre 2005</creationDate>
+	<copyright>(C) 2000 - 2005 Open Source Matters</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@joomlaitalia.com</authorEmail>
+	<authorUrl>www.joomlaitalia.com</authorUrl>
+	<version>1.0.1</version>
+	<description>Bottone per inserire velocemente il codice {quickdown #id} di MGM Gallery dove al posto di #id dovete inserire il numero id della galleria</description>
+	<files>
+		<filename mambot="mosgallery.btn">mosgallery.btn.php</filename>
+		<filename>mosgallery.gif</filename>
+	</files>
+</mosinstall>

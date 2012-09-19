@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="4.5.1">
+  <name>Celtic</name>
+  <creationDate>14/11/2004</creationDate>
+  <author>Mr.Airbrush</author>
+  <copyright>This template is released under GNU/GPL License.</copyright>
+  <authorEmail>Look_at@airbrush-design.com</authorEmail>
+  <authorUrl>www.airbrush-design.com</authorUrl>
+  <version>1.0</version>
+  <description>Celtic Design erste Version
+  Bitte beachten derzeit werden nur Boxen Left,Right,main, und user4 für Uhrzeit benutzt. Erstes Testtemplate. Kann gerne weiterentwickelt werden. :-)
+  </description>
+  <files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <images>
+    <filename>images/rund_1.gif</filename>
+    <filename>images/ecke_o_l.gif</filename>
+    <filename>images/back_o.gif</filename>
+        <filename>images/ecke_o_r.gif</filename>
+    <filename>images/rund_2.gif</filename>
+        <filename>images/ende_oben.gif</filename>
+    <filename>images/back_vert.gif</filename>
+        <filename>images/ende_unten.gif</filename>
+        <filename>images/rund_3.gif</filename>
+        <filename>images/ende_links.gif</filename>
+ <filename>images/back_horz.gif</filename>
+  <filename>images/ende_rechts.gif</filename>
+  <filename>images/rund_4.gif</filename>
+  <filename>images/blind.gif</filename>
+  <filename>images/background.jpg</filename>
+  <filename>images/hg1.jpg</filename>
+  <filename>images/hg2.jpg</filename>
+  <filename>images/titel.jpg</filename>
+
+  </images>
+  <css>
+    <filename>css/template_css.css</filename>
+  </css>
+</mosinstall>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+  <name>AkoAutumnFog</name>
+  <creationDate>18.09.2004</creationDate>
+  <author>Arthur Konze</author>
+  <copyright>(C) Copyright 2003, 2004 by Arthur Konze. All rights reserved!</copyright>
+  <authorEmail>webmaster@konze.de</authorEmail>
+  <authorUrl>www.konze.de</authorUrl>
+  <version>2.0</version>
+  <description>A grey and foggy template with an autumn logo at the top.</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <images>
+    <filename>images/border_bottom_back.png</filename>
+    <filename>images/border_left_back.png</filename>
+    <filename>images/border_right_back.png</filename>
+    <filename>images/border_top_back.png</filename>
+    <filename>images/logo_back.jpg</filename>
+    <filename>images/shading_bottom_left.png</filename>
+    <filename>images/shading_bottom_middle.jpg</filename>
+    <filename>images/shading_bottom_right.jpg</filename>
+    <filename>images/shading_left.png</filename>
+    <filename>images/shading_right.jpg</filename>
+    <filename>images/shading_top_left.png</filename>
+    <filename>images/shading_top_middle.jpg</filename>
+    <filename>images/shading_top_right.png</filename>
+  </images>
+  <css>
+    <filename>css/template_css.css</filename>
+  </css>
+</mosinstall>

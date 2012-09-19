@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>Manga</name>
+	<creationDate>15th October 2004</creationDate>
+	<author>Absalom Media</author>
+	<copyright>This template remains open source under the GNU/GPL licence</copyright>
+	<authorEmail>media@absalom.biz</authorEmail>
+	<authorUrl>www.absalom.biz</authorUrl>
+	<version>1.0B</version>
+	<description>A 4.5.1 port of Jooon.de's Manga theme (Postnuke/Autotheme)</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/logo_jooon.jpg</filename>
+		<filename>images/upb.gif</filename>
+		<filename>images/logo.gif</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

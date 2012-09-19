@@ -1,0 +1,214 @@
+/**
+* AkoAutumnFog - A Mambo 4.5 template
+* @version 2.0
+* @package AkoAutumnFog
+* @copyright (C) 2003, 2004 by Arthur Konze - All rights reserved!
+* @license http://www.konze.de/content/view/8/26/ Copyrighted Commercial Software
+*/
+
+/* ###################### OVERALL SETTINGS ###################### */
+BODY {
+  margin           : 0px 0px 0px 0px;
+  background-color : #FFFFFF ;
+  color            : #000000;
+}
+
+td, tr, p, div {
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  color            : #000000;
+}
+
+h4 { color: #FF9900; font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; }
+h5 { color: #FF9900; font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; }
+h6 { color: #FF9900; font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+
+ul {
+  margin           : 0px 0px 0px 0px;
+}
+
+li {
+  list-style-image : url('../images/arrow.gif');list-style-position:inside
+}
+
+hr {
+  background       : #C0C0C0;
+  height           : 1px;
+  width            : 100%;
+}
+
+table.searchintro {
+  background-color: #FFFFFF;
+  border: solid 1px #777777;
+}
+
+/* ###################### LINKS ###################### */
+a:link, a:visited {
+  font-size        : 11px;
+  color            : #606060;
+  text-decoration  : none;
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color            : #ED9517;
+  text-decoration  : none;
+}
+
+a.mainmenu:link, a.mainmenu:visited {
+  color            : #808080;
+  font-weight      : normal;
+}
+
+a.mainmenu:hover {
+  color            : #ED9517;
+  text-decoration  : underline;
+}
+
+a.category:link, a.category:visited {
+  color            : #999999;
+  font-weight      : bold;
+}
+
+a.category:hover {
+  color            : #ED9517;
+}
+
+/* ##################### MODULE SETTINGS ######################  */
+table.moduletable {
+  width            : 100%;
+  margin-bottom    : 10px;
+}
+
+table.moduletable th {
+  font-size        : 11px;
+  font-weight      : bold;
+  color            : #333333;
+  text-align       : left;
+  padding          : 1px;
+  border-bottom    : 1px #C0C0C0 solid;
+}
+
+table.moduletable td {
+  padding          : 1px;
+}
+
+/* ###################### MODULE SETTINGS ###################### */
+
+.pathwaytext {
+  color            : #808080;
+}
+
+.maintitletext {
+  font: bold italic 26pt "Times New Roman", serif, georgia;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.mainmenu {
+  color            : #FF9900;
+  font-family      : Verdana, Geneva, Arial, Helvetica, serif;
+  font-weight      : normal;
+  text-decoration  : none;
+}
+
+.frameheader {
+  font             : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 18px;
+  font-weight      : none;
+  color            : #808080;
+}
+
+.poll {
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #666666;
+  line-height      : 15px
+}
+
+/* ###################### FORMULAR SETTINGS ###################### */
+.button {
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-style       : normal;
+  font-weight      : bold;
+  font-size        : 10px;
+  color            : #000000;
+  border           : 1px solid;
+}
+
+.inputbox {
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  font-weight      : bold;
+  color            : #000000;
+  background       : #FFFFFF;
+  border           : 1px solid;
+}
+
+/* ###################### CONTENT PAGE SETTINGS ###################### */
+.contentpane {
+  text-align       : justify;
+}
+
+.contentpaneopen {
+  text-align       : justify;
+}
+
+.contentheading, .componentheading {
+  font-size        : 11px;
+  font-weight      : bold;
+  color            : #333333;
+  text-align       : left;
+  padding          : 1px;
+  border-bottom    : 1px #C0C0C0 solid;
+}
+
+.contentdescription {
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  color            : #333333;
+  text-align       : left;
+}
+
+.category {
+  color            : #999999;
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  font-weight      : bold;
+  text-decoration  : none;
+}
+
+/* ###################### SECTION LISTING SETTINGS ###################### */
+.sectiontableentry1 {
+  background-color : #C0C0C0;
+}
+
+.sectiontableentry2 {
+  background-color : #D0D0D0;
+}
+
+.sectiontableheader {
+  background-color : #000000;
+  color            : #FFFFFF;
+  height           : 20px;
+  font-weight      : bold;
+  border-bottom    : 1px solid #000000;
+  border-top       : 1px solid #000000;
+}
+
+/* ###################### SMALL FONT SETTINGS ###################### */
+.small {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 9px;
+  color            : #CC6600;
+  text-decoration  : none;
+  font-weight      : normal;
+}
+
+.smalldark {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 9px;
+  color            : #000000;
+  font-weight      : normal;
+}

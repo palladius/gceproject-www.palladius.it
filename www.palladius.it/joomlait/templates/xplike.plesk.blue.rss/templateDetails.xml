@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>xplike.plesk.blue.rss</name>
+	<creationDate>29/03/2005</creationDate>
+	<author>SWsoft and Netshine Software Ltd</author>
+	<copyright>This template is released under the GNU/GPL License</copyright>
+	<authorEmail></authorEmail>
+	<authorUrl>www.netshinesoftware.com</authorUrl>
+	<version>2.1</version>
+	<description>Default Plesk 7.0 template for Mambo 4.5+ with RSS support</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>javascript/leftframe.js</filename>
+	</files>
+	<images>
+		<filename>images/1x1.gif</filename>
+		<filename>images/comptitle_bg.gif</filename>
+		<filename>images/comptitle_bg.jpg</filename>
+		<filename>images/comptitle_left.gif</filename>
+		<filename>images/comptitle_right.gif</filename>
+		<filename>images/footer_bg.png</filename>
+		<filename>images/head_XPblue_normal_wl.jpg</filename>
+		<filename>images/nav_bg.jpg</filename>
+		<filename>images/navclosed.gif</filename>
+		<filename>images/navopened.gif</filename>
+		<filename>images/topleft.gif</filename>
+		<filename>images/topright.gif</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+		<filename>css/left.css</filename>
+	</css>
+</mosinstall>

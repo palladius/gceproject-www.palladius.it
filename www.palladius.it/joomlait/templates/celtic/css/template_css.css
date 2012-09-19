@@ -1,0 +1,335 @@
+                        /* Body */
+BODY {
+        margin: 0px 0px 0px 0px;
+
+        background-color : #000000;
+        color : #DCB081;
+                background-image: url(http://www.spritzpistole.de/templates/celtic/images/background.jpg);
+                scrollbar-arrow-color:6b5139; scrollbar-base-color:947552;
+
+        }
+
+tr,p,div {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #ffffff;
+        }
+b {font-family: Arial, Helvetica, Tahoma, Verdana,;font-size: 12px; font-weight: bold; color: #EACEB0; }
+
+  .title {
+font-family: sans-serif;
+font-size: 18px;
+font-weight: bold;
+color : #E9D7B1;
+margin-left: 135px;
+}
+
+h4 {
+        color: #EACEB0; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 16px; font-weight: bold;
+        }
+
+
+        h5 {
+        color: #EACEB0; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px; font-weight: bold;
+        }
+
+h6 {
+        color: #EACEB0; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px; font-weight: bold;
+        }
+
+/* Links */
+a:link, a:visited {
+        font-size: 12px; color: #DCB081; text-decoration: none;
+        font-family:  Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        }
+
+a:hover {
+        color: #ffffff;        text-decoration: none;
+        }
+
+/* Horizontal Line */
+HR {color: #817154; height: 3px; width: 98%; border: 0; }
+
+
+/* --Default Class Settings-- */
+
+
+a.mainmenu:link, a.mainmenu:visited {
+        font-size: 12px;
+        color: #DCB081;
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 1px;
+        height: 14;
+        width: 95%;
+        border-top-width: 1px;
+        border-top-style: dashed;
+        border-top-color: #cccccc;
+        }
+
+a.mainmenu:hover {
+        font-size: 12px;
+        color: #556B2F;
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#DCB081;
+        height: 14;
+        width: 95%;
+        padding: 1px;
+        border-top-width: 1px;
+        border-top-style: dashed;
+        border-top-color: #000000
+        }
+/* Content - Sections & Categories */
+.contentpane {
+
+
+        }
+
+.contentpaneopen {
+
+        }
+
+.contentheading {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+         color: #EACEB0;
+        text-align:left;
+        }
+
+.contentdescription {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #ffffff;
+        text-align: left;
+        }
+
+.pathway {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+         color: #DCB081;
+        }
+
+
+/* Links */
+a.blogsection:link, a.blogsection:visited {
+        color: #DCB081; text-decoration: none; font-weight: normal;
+        font-family:  Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        }
+
+a.blogsection:hover {
+        color: #DCB081;        text-decoration: none;
+        }
+
+a.pathway:link, a.pathway:visited {
+        color: #DCB081; text-decoration: none; font-weight: normal;        font-size: 9px;
+        font-family:  Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        }
+
+a.pathway:hover {
+        color:#ffffff;
+        text-decoration: underline;
+        }
+
+a.weblinks:link, a.weblinks:visited {
+        color: #DCB081; text-decoration: none; font-weight: normal;
+        font-family:  Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        }
+
+a.weblinks:hover {
+        color: #ffffff;        text-decoration: none;
+        }
+
+a.readon:link, a.readon:visited {
+        color: #DCB081; text-decoration: none; font-weight: normal;
+        font-family:  Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        }
+
+a.readon:hover {
+        color: #ffffff;
+        text-decoration: none;
+        }
+
+table.moduletable th {
+        font: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: left;
+        height: 22px;
+        line-height: 22px;
+        white-space: nowrap;
+        width: 100%;
+
+        text-indent: 12px;
+        }
+
+table.moduletable {
+        margin: 0px 0px 0px 0px;
+        width: 95%;
+        border-left: solid 0px #000000;
+        border-right: solid 0px #000000;
+        border-top: solid 0px #000000;
+        border-bottom: solid 0px #000000;
+        }
+
+.componentheading {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+         color: #ffffff;
+        text-align:left;
+        }
+
+.boxheading {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+         color: #ffffff;
+        text-align:left;
+        }
+
+.button {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        background: #DCB081;
+        color: #000000;
+        border-style: solid;
+        border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;
+        }
+
+
+        .inputbox {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: #000000;
+        background:#DCB081;
+        border: 1px solid;
+        }
+
+.slogan {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+         color: #DCB081;
+        }
+
+.searchsite {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+         color: #ffffff;
+        }
+
+/** category text format and links **/
+.category {
+        color: #DCB081; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px; font-weight: bold; text-decoration: none;
+        }
+
+a.category:link, a.category:visited {
+        color: #DCB081; font-weight: bold;
+        }
+
+a.category:hover {
+        color: #ffffff;
+        }
+
+.poll {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #DCB081;
+        line-height: 14px
+        }
+
+.sectiontableentry1 {
+        background-color : #000000;
+         background-image: url(http://www.spritzpistole.de/templates/celtic/images/background.jpg);
+        }
+
+.sectiontableentry2 {
+        background-color : #000000;
+         background-image: url(http://www.spritzpistole.de/templates/celtic/images/background.jpg);
+        }
+
+.sectiontableheader {
+        background-color : #DCB081;
+        color : #000000;
+        font-weight : bold;
+         background-image: url(http://www.spritzpistole.de/templates/celtic/images/background.jpg);
+        }
+
+.small {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #DCB081;
+        text-decoration: none;
+        font-weight: normal;
+        }
+
+.createdate {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #DCB081;
+        text-decoration: none;
+        font-weight: normal;
+        }
+
+.modifydate {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #DCB081;
+        text-decoration: none;
+        font-weight: normal;
+        }
+
+ul {
+        margin: 0px 0px 0px 0px;
+        }
+
+li {
+        list-style: inside url(images/M_images/arrow.png) 3px;
+        list-style-image: url(images/M_images/arrow.png);
+        }
+
+.fase4rdf {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px; color: #ffffff; font-weight: normal;
+        }
+
+a.fase4rdf:link {
+        font-size: 11px; font-weight: normal; color: #DCB081;
+        }
+
+a.fase4rdf:hover {
+        font-weight: bold; color: #ffffff;
+        }
+
+table.searchintro {
+          background-color: #DCB081;
+        }
+
+table.contact {
+        background-color: #000000;
+        }
+
+table.contact td.icons {
+        background-color: #ffffff;
+        }
+
+table.contact td.details {
+        background-color: #000000
+        font-size: 10px;
+        font-weight: bold;
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        }
+
